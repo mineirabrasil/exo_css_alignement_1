@@ -1,0 +1,30 @@
+body>header nav {
+    /*background: aquamarine;*/
+    width: calc( 100vw / 4);
+    text-align: right;
+    /*margin-left: -12px; no need*/
+}
+body>header nav .material-icons-two-tone {
+    padding: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+body>header nav .material-icons-two-tone:hover+ul,
+body>header nav ul:hover {
+    height: 80px;
+    visibility: visible;
+    /*overflow: hidden; no need*/
+    /*visibility: visible; no need*/
+}
+body>header nav ul {
+    position: absolute;
+    right: 12px;
+    border: 1px solid black;
+    background: white;
+    padding:12px;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    /*text-align: right; no need*/
+}
+

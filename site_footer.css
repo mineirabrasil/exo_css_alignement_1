@@ -1,0 +1,8 @@
+body footer {
+    text-align: center;
+    background: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: pink;
+}

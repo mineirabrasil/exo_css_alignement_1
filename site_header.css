@@ -1,0 +1,25 @@
+body>header figure {
+    width: calc( 100vw / 4);
+    height: calc( 100vw / 4);
+    background-image: url("https://lezebre.lu/images/detailed/84/48414-logo-hulk_2018.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body>header {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+    background: whitesmoke;
+    position: fixed;
+    top: 0;
+}
+body>header>* {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+body>header h1 {
+    width: calc( 100vw / 2);
+    /*background: deeppink;*/
+}
+

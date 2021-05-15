@@ -1,0 +1,4 @@
+body article {
+    padding-top: calc( 100vw / 4); /*on reprend la taille exacte du header*/
+    padding-bottom: 12pt; /*idem pour la taille du header */
+}
